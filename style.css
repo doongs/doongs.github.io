@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+  .button {
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 150px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(153, 16, 43);
+    position: relative;
+  }
+
+  .button:hover{
+      background-color: rgb(192, 24, 57);
+  }
+
+  .button:active {
+      background-color: rgb(192, 24, 57);
+      box-shadow: 0 5px rgb(153, 16, 43);
+    transform: translateY(4px);
+  }
+
+  #wrapper {
+    width: 100%;
+    height: 710px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    resize: both;
+    overflow: auto;
+  }

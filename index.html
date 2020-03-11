@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html Lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Wait</title>
+    </head>
+        <body>
+            
+            
+            
+            <div id="wrapper">
+            <h1 style="color:white;text-align:center;">Welcome to the website of Gabriel Doon</h1>
+            <button class=button onclick="playWait()" type = "button">Wait</button>
+            <h1 style="color:white;text-align:center;">Please enjoy the hold music while you wait</h1>
+            </div>
+            
+            <audio controls autoplay loop style="display:none">  
+            <source src="blorp.mp3" type="audio/mp3">   
+            </audio>         
+        </body>    
+            
+        <script>
+            var wait = new Audio();
+            wait.src = "wait.wav";
+            var superwait = new Audio();
+            superwait.src = "superwait.mp3"
+            counter = 0;
+            function playWait() {
+                if(counter < 4){
+                    wait.play();
+                    counter = counter + 1;
+                }
+                else{
+                    superwait.play();
+                    counter = 0;
+		    window.open("Resume.pdf");
+                }
+            }
+        </script>
+    </html>
