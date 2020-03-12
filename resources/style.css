@@ -5,6 +5,7 @@
     background-color: black;
 }
   .audio {
+    width: 100%;
     align-self: center;
     align-content: center;
     max-width: 100%;
