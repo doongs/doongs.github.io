@@ -3,13 +3,17 @@
     padding: 0px 0px;
     box-sizing: border-box;
     background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
   .audio {
+    margin: auto;
     width: 100%;
     align-self: center;
     align-content: center;
-    max-width: 100%;
-    min-width: 100%;
+
   }
 
   .button {
@@ -37,16 +41,17 @@
   .button:active {
       background-color: rgb(192, 24, 57);
       box-shadow: 0 5px rgb(153, 16, 43);
-    transform: translateY(4px);
+      transform: translateY(4px);
   }
 
   #wrapper {
+    margin: auto;
     height: 710px;
     display: grid;
     align-items: center;
     justify-content: center;
     resize: both;
     overflow: auto;
-    max-width: 100%;
-    min-width: 100%;
+    max-width: 40%;
+    min-width: 30%;
   }
