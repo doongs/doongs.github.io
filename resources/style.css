@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: black;
 }
+  .audio {
+    width: 600px;
+  }
 
   .button {
     display: inline-block;
@@ -34,9 +37,11 @@
   #wrapper {
     width: 100%;
     height: 710px;
-    display: inline-grid;
+    display: grid;
     align-items: center;
     justify-content: center;
+    align-self: center;
+    vertical-align: middle;
     resize: both;
     overflow: auto;
   }

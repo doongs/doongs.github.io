@@ -11,11 +11,13 @@
             <div id="wrapper">
                 <h1 style="color:white;text-align:center;">Welcome to the website of Gabriel Doon.</h1>
                 <button class=button onclick="playWait()" type = "button">Wait</button>
+                <audio class=audio controls autoplay loop >  
+                    <source src="/resources/blorp.mp3" type="audio/mp3">   
+                </audio>
                 <h1 style="color:white;text-align:center;">Please enjoy the hold music while you wait!</h1>
+                
             </div>
-            <audio controls autoplay loop style="display:none">  
-                <source src="/resources/blorp.mp3" type="audio/mp3">   
-            </audio>         
+                     
         </body>    
         <script>
             var wait = new Audio();
