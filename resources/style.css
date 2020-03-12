@@ -5,7 +5,9 @@
     background-color: black;
 }
   .audio {
-    width: 600px;
+    width: 900px;
+    align-self: center;
+    align-content: center;
   }
 
   .button {
@@ -19,7 +21,7 @@
     color: #fff;
     background-color: crimson;
     border: none;
-    border-radius: 15px;
+    border-radius: 50px;
     box-shadow: 0 9px rgb(153, 16, 43);
     position: relative;
   }
@@ -40,8 +42,6 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    align-self: center;
-    vertical-align: middle;
     resize: both;
     overflow: auto;
   }
