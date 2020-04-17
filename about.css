@@ -19,3 +19,17 @@ main {
     margin-top: 5em;
     margin-bottom: 5em;
 }
+
+.self-description {
+    color: white;
+    border:0px solid white;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.self-description-bottom {
+    color: white;
+    border:0px solid white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
