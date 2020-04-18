@@ -23,11 +23,11 @@ main {
 .self-description {
     color: white;
     border:0px solid white;
-    margin-top: 6rem;
-    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
-.self-description-bottom {
+.self-description-bottom{
     color: white;
     border:0px solid white;
     margin-top: 3rem;
