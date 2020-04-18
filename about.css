@@ -1,35 +1,35 @@
 body {
-    background-color: #222222;
-    align-items: center;
+  background-color: #222222;
+  align-items: center;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: 5em;
-    row-gap: 5%;
-    width: fit-content;
-    height: fit-content;
-    justify-items: center;
-    justify-content: center;
-    justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  column-gap: 5em;
+  row-gap: 5%;
+  width: fit-content;
+  height: fit-content;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
 }
 
 main {
-    margin-top: 5em;
-    margin-bottom: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .self-description {
-    color: white;
-    border:0px solid white;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+  color: white;
+  border: 0px solid white;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
-.self-description-bottom{
-    color: white;
-    border:0px solid white;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.self-description-bottom {
+  color: white;
+  border: 0px solid white;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
