@@ -1,9 +1,9 @@
 ---
-layout: blog
-title: Blog
+layout: about
+title: About
 cover-photo: 
 cover-photo-alt: example cover photo
 auto-header: none
-icon: fa-pen-nib
-order: 3
+icon: fa-user
+order: 2
 ---
