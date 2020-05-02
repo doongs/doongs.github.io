@@ -1,0 +1,30 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 50%));
+    min-width: 50%;
+    row-gap: 5%;
+    column-gap: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30%;  
+}
+
+.project-video {
+    height: auto;
+    width: 480px;
+    border: solid black 0px;
+}
+
+.description-container {
+    display: flexbox;
+    flex-direction: column;
+    
+}
+
+.description-container > * {
+    margin-bottom: 10%;
+}
+
+.two {
+    padding-bottom: 10%;
+}
