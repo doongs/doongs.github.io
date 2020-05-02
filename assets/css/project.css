@@ -1,12 +1,18 @@
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(50%, 50%));
+    grid-template-columns: 1fr;
     min-width: 50%;
     row-gap: 5%;
     column-gap: 5%;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 30%;  
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    column-gap: 10rem;
 }
 
 .project-video {
@@ -18,11 +24,15 @@
 .description-container {
     display: flexbox;
     flex-direction: column;
-    
 }
 
-.description-container > * {
-    margin-bottom: 10%;
+.description-container > h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.description-container > p {
+    text-align: justify;
 }
 
 .two {
