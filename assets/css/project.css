@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 10rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .project-container {
