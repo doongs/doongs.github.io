@@ -1,7 +1,7 @@
 .project-grid {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 10rem;
+    row-gap: 5rem;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -10,11 +10,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     column-gap: 10rem;
+    row-gap: 5rem;
 }
 
 .project-video {
     width: 100%;
-    border: solid black 0px;
 }
 
 .description-container {
