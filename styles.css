@@ -1,0 +1,36 @@
+:root {
+    --light-shades: #f1f0ee;
+    --light-accent: #c8998c;
+    --primary: #d21f3c;
+    --dark-accent: #c57c73;
+    --dark-shades: #26202a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-color-on-scroll {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+body {
+    background-color: var(--dark-shades) !important;
+}
+
+.main {
+    background-color: var(--light-shades);
+}
+
+footer {
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+}
+
+a {
+    color: var(--light-accent);
+}
