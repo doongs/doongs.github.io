@@ -1,0 +1,77 @@
+:root {
+    --light-shades: #f1f0ee;
+    --light-accent: #c8998c;
+    --primary: #d21f3c;
+    --dark-accent: #c57c73;
+    --dark-shades: #26202a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-color-on-scroll {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+body {
+    background-color: var(--dark-shades) !important;
+}
+
+.main {
+    background-color: var(--light-shades);
+}
+
+footer {
+    background-color: white;
+}
+
+a {
+    color: var(--light-accent);
+}
+
+.web {
+    max-width: 720px;
+    min-width: 240px;
+}
+
+section {
+    padding: 0px;
+}
+
+nav {
+    opacity: 95%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease-in-out;
+    background-color:var(--primary);
+    color: white;
+  }
+
+.overlay:hover {
+    opacity: 95%;
+}
+
+.project-link {
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--dark-shades) !important;
+    opacity: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+}
