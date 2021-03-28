@@ -1,0 +1,6 @@
+.headshot {
+  border-radius: 50%;
+  border: white 3px solid;
+  max-width: 200px;
+  max-height: 200px;
+}
