@@ -3,6 +3,7 @@
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #c41e3a transparent;
+  overflow-y: hidden;
 }
 
 /* Works on Chrome, Edge, and Safari */
