@@ -19,6 +19,10 @@
   background-color: #C41E3A;    /* color of the scroll thumb */
 }
 
+a {
+  overflow: hidden; /* The little social buttons have a scrollbar, this hides it */
+}
+
 body {
   overflow: overlay;
 }
