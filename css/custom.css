@@ -1,6 +1,25 @@
-.scroller {
-  scrollbar-color: #C41E3A white !important; /* thumb and track color */
-  scrollbar-width: thin !important;
+/* Works on Firefox */
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #c41e3a transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;    
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #C41E3A;    /* color of the scroll thumb */
+}
+
+body {
+  overflow: overlay;
 }
 
 .headshot {
