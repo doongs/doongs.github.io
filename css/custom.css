@@ -1,3 +1,8 @@
+.scroller {
+  scrollbar-color: #C41E3A white !important; /* thumb and track color */
+  scrollbar-width: thin !important;
+}
+
 .headshot {
   border-radius: 50%;
   border: white 3px solid;
