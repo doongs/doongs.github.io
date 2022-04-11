@@ -7,6 +7,14 @@
   font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
+.fa {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands" !important;
+}
+
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;    
