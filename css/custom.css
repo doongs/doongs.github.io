@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 /* Works on Firefox */
 * {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #c41e3a transparent;
+  font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
 /* Works on Chrome, Edge, and Safari */
