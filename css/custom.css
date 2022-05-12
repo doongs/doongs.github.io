@@ -42,3 +42,9 @@ body {
   max-width: 200px;
   max-height: 200px;
 }
+
+#player {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
