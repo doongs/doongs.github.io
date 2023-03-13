@@ -1,6 +1,6 @@
 let images = 
 [
-    "cspresent.jpg", 
+  "cspresent.jpg", 
   "cspresent2.jpeg", 
   "cspresent3.jpeg", 
   "mrdsax.jpg", 
