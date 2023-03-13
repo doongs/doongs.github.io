@@ -9,7 +9,8 @@ let images =
   "piano2.jpg", 
   "ptech.jpg", 
   "build.jpg",
-  "aiml.png"
+  "aiml.png",
+  "guitar.png"
 ];
 
 (() => {
